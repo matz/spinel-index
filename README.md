@@ -1,13 +1,13 @@
-# spinel-index
+# spin-index
 
-The [spinelgems](https://github.com/matz/spinel) index: a git-hosted map
-from gem names to their repositories and releases. There is no registry
+The package index for [Spinel](https://github.com/matz/spinel): a git-hosted map
+from package names to their repositories and releases. There is no registry
 server; `spin` clones this repo into its cache and resolves
 `[dependencies] name = "constraint"` entries against it.
 
 ## Format
 
-One TOML file per gem, `gems/<name>.toml`:
+One TOML file per gem, `packages/<name>.toml`:
 
 ```toml
 name = "ansi"
@@ -25,8 +25,8 @@ ref = "a94a8fe5ccb19ba61c4c0873d391e987982fbbd3"  # full commit SHA in `repo`
 - Same name as a rubygems.org gem means "the same library, possibly a
   subset-compatible port"; diverging forks must rename (`foo-spinel`).
 
-## Adding a gem
+## Adding a package
 
-Open a pull request adding or updating `gems/<name>.toml`. Each release's
+Open a pull request adding or updating `packages/<name>.toml`. Each release's
 `ref` must be a full commit SHA reachable in `repo` whose tree contains a
 `spin.toml` with the matching `version`.
