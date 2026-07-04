@@ -18,7 +18,7 @@ version = "1.0.0"
 ref = "a94a8fe5ccb19ba61c4c0873d391e987982fbbd3"  # full commit SHA in `repo`
 ```
 
-- `version` follows `x.y.z`; constraints in gem.toml are `"~> x.y"`,
+- `version` follows `x.y.z`; constraints in spin.toml are `"~> x.y"`,
   `">= x.y.z"`, exact, or `"*"`.
 - Selection is MVS: `spin` picks the **lowest** release satisfying every
   constraint, and `gem.lock` pins the outcome.
@@ -29,4 +29,4 @@ ref = "a94a8fe5ccb19ba61c4c0873d391e987982fbbd3"  # full commit SHA in `repo`
 
 Open a pull request adding or updating `gems/<name>.toml`. Each release's
 `ref` must be a full commit SHA reachable in `repo` whose tree contains a
-`gem.toml` with the matching `version`.
+`spin.toml` with the matching `version`.
