@@ -7,7 +7,7 @@ server; `spin` clones this repo into its cache and resolves
 
 ## Format
 
-One TOML file per gem, `packages/<name>.toml`:
+One TOML file per package, `packages/<name>.toml`:
 
 ```toml
 name = "ansi"
