@@ -1,0 +1,12 @@
+name = "redis"
+repo = "https://github.com/rubys/spinel-redis"
+
+[[release]]
+version = "0.1.0"
+ref = "4c2ceaba0377e49ae907324f9632f55e874aa808"
+
+[[probe]]
+version = "0.1.0"
+spinel = "6c8dfa95829b"
+result = "pass"
+date = "2026-07-07"
