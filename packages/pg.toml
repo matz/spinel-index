@@ -1,0 +1,12 @@
+name = "pg"
+repo = "https://github.com/rubys/spinel-pg"
+
+[[release]]
+version = "0.1.0"
+ref = "ca485ffcad655f6d2c198e9ace5e3171fedecfa6"
+
+[[probe]]
+version = "0.1.0"
+spinel = "a7e42e904cad"
+result = "pass"
+date = "2026-07-07"
