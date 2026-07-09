@@ -1,0 +1,12 @@
+name = "spinel_kit"
+repo = "https://github.com/OriPekelman/spinelkit"
+
+[[release]]
+version = "0.3.0"
+ref = "20a824238f12151f6019859c090e9d0db41c0dc3"
+
+[[probe]]
+version = "0.3.0"
+spinel = "f9a81b1dbebe"
+result = "pass"
+date = "2026-07-09"
