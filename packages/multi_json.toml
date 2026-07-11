@@ -1,0 +1,12 @@
+name = "multi_json"
+repo = "https://github.com/OriPekelman/spinel-multi_json"
+
+[[release]]
+version = "0.1.0"
+ref = "e8bb76652f9151309c1254fe0068ba085b4199dd"
+
+[[probe]]
+version = "0.1.0"
+spinel = "65fb6d2dece5"
+result = "pass"
+date = "2026-07-11"
