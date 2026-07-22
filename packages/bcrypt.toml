@@ -1,0 +1,12 @@
+name = "bcrypt"
+repo = "https://github.com/rubys/spinel-bcrypt"
+
+[[release]]
+version = "0.1.0"
+ref = "25005f6b5d4e43e6f490c81639f8a0fca5534115"
+
+[[probe]]
+version = "0.1.0"
+spinel = "12b757f0fc0b"
+result = "pass"
+date = "2026-07-22"
